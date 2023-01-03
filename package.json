@@ -2,11 +2,16 @@
   "name": "ms-authetication",
   "version": "1.0.0",
   "description": "Microservice criado durante bootcamp Dio.me",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "start": "node ./",
+    "build": "tsc -p ."
   },
   "author": "Dieferson Soares",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
 }
